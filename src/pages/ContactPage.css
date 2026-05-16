@@ -1,0 +1,98 @@
+.contact__box {
+  background: var(--primary-dark);
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  overflow: hidden;
+  padding: 40px;
+  gap: 40px;
+}
+
+.contact__map {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  height: 260px;
+  margin-bottom: 24px;
+}
+.contact__map iframe { width: 100%; height: 100%; border: none; }
+
+.contact__info-icon {
+  width: 30px;        
+  height: 30px;
+  background-color: var(--dark); 
+  border-radius: 50%;    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0; 
+  transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  gap: 35px; 
+  margin-top: 10px;
+}
+
+.contact__info-icon img {
+  width: 15px;          
+  height: 15px;
+  object-fit: contain;
+  filter: brightness(0) invert(1); 
+}
+
+.contact__info-item {
+  display: flex;
+  flex-direction: row-reverse; 
+  align-items: center;
+  gap: 15px;
+  color: var(--white);
+  justify-content: flex-start;
+}
+
+.contact__info-item:hover .contact__info-icon {
+  background-color: var(--primary); 
+  transform: scale(1.1);
+}
+
+.contact__title {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: var(--white);
+  text-align: right;
+  margin-bottom: 8px;
+}
+.contact__sub {
+  font-size: 0.88rem;
+  color: rgba(255,255,255,0.75);
+  text-align: right;
+  margin-bottom: 28px;
+}
+
+.contact__form { display: flex; flex-direction: column; gap: 14px; }
+
+.contact__input,
+.contact__textarea {
+  width: 100%;
+  padding: 13px 16px;
+  border: 1.5px solid rgba(255,255,255,0.2);
+  border-radius: var(--radius-sm);
+  background: rgba(255,255,255,0.08);
+  color: var(--white);
+  font-family: 'Alexandria', sans-serif;
+  font-size: 0.9rem;
+  text-align: right;
+  direction: rtl;
+  outline: none;
+  transition: var(--transition);
+}
+.contact__input::placeholder,
+.contact__textarea::placeholder { color: rgba(255,255,255,0.45); }
+.contact__input:focus,
+.contact__textarea:focus { border-color: var(--primary); background: rgba(255,255,255,0.12); }
+
+.contact__textarea { resize: none; }
+
+.contact__submit { width: 100%; text-align: center; padding: 14px; }
+
+@media (max-width: 768px) {
+  .contact__box { grid-template-columns: 1fr; padding: 24px; }
+}

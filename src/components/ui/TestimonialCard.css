@@ -1,0 +1,69 @@
+.tcard {
+  border: 1.5px solid var(--gray-200);
+  border-radius: var(--radius-lg);
+  padding: 36px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  background: var(--white);
+  transition: var(--transition);
+}
+
+.tcard:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--primary-light);
+  transform: translateY(-2px);
+}
+
+.tcard__quote {
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.85;
+  color: var(--dark);
+  text-align: right;
+  quotes: none;
+  flex: 1;
+}
+
+.tcard__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.tcard__author {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.tcard__name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.tcard__avatar {
+  width: 90px;
+  height: 90px;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 540px) {
+  .tcard { padding: 24px 20px; }
+
+  .tcard__footer {
+    flex-direction: column-reverse;
+    align-items: flex-end;
+  }
+
+  .tcard__avatar {
+    width: 72px;
+    height: 72px;
+  }
+}

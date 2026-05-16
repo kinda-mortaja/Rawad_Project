@@ -1,0 +1,35 @@
+.home-services-intro {
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.home-services-banner {
+  background-color: var(--primary);
+  padding: 60px 0;
+  width: 100%;
+}
+
+.home-services-intro .section-title {
+  font-size: 28px; 
+  line-height: 1.8;    
+  font-weight: 700;    
+  color: var(--dark);  
+  margin-top: 10px;   
+}
+
+
+.home-services__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+@media (max-width: 768px) {
+  .home-services-intro {
+    text-align: center;
+  }
+  .home-services__cards {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
