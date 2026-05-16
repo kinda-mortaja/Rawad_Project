@@ -1,6 +1,6 @@
 import TestimonialCard from '../ui/TestimonialCard'
 import './TestimonialsSection.css'
-import saraImg from '../assets/sara.png' 
+import saraImg from 'src/assets/sara.png' 
 
 
 const testimonials = [
