@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import './HeroSection.css'
+import heroImg from '../assets/hero.png' 
+
 
 export default function HeroSection() {
   return (
@@ -12,7 +14,7 @@ export default function HeroSection() {
 
         <div className="hero__visual">
           <img
-            src= "src/assets/hero.png"
+            src= {heroImg}  // ← استخدم المتغير
             alt="فريق العمل"
             className="hero__img"
           />

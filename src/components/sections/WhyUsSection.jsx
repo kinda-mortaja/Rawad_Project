@@ -1,4 +1,5 @@
 import './WhyUsSection.css'
+import aboutImg from '../assets/about.png'
 
 export default function WhyUsSection() {
   return (
@@ -20,7 +21,7 @@ export default function WhyUsSection() {
 
         <div className="why__visual">
           <img
-            src="src/assets/about.png"
+            src={aboutImg}
             alt="لماذا نحن"
             className="why__img"
           />

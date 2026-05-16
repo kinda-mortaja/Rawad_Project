@@ -1,5 +1,7 @@
 import NewsletterSection from '../components/sections/NewsletterSection'
 import './AboutPage.css'
+import asImg from '../assets/as.png' 
+
 
 export default function AboutPage() {
   return (
@@ -23,7 +25,7 @@ export default function AboutPage() {
 
           <div className="about__visual">
             <img
-              src="src/assets/as.png"
+              src={asImg}
               alt="منصة رواد"
               className="about__img"
             />
