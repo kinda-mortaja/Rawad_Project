@@ -3,6 +3,36 @@ import NewsletterSection from '../components/sections/NewsletterSection'
 import ServiceCard from '../components/ui/ServiceCard'
 import ServiceTag from '../components/ui/ServiceTag'
 import './ServicesPage.css'
+import img1  from '../assets/1.png'
+import img2  from '../assets/2.png'
+import img3  from '../assets/3.png'
+import img4  from '../assets/4.png'
+import img5  from '../assets/5.png'
+import img6  from '../assets/6.png'
+import img7  from '../assets/7.png'
+import img8  from '../assets/8.png'
+import img9  from '../assets/9.png'
+import img10 from '../assets/10.png'
+import img11 from '../assets/11.png'
+import img12 from '../assets/12.png'
+import img13 from '../assets/13.png'
+import img14 from '../assets/14.png'
+import img15 from '../assets/15.png'
+import img16 from '../assets/16.png'
+import img17 from '../assets/17.png'
+import img18 from '../assets/18.png'
+import img19 from '../assets/19.png'
+import img20 from '../assets/20.png'
+import img21 from '../assets/21.png'
+import img22 from '../assets/22.png'
+import img23 from '../assets/23.png'
+import img24 from '../assets/24.png'
+import img25 from '../assets/25.png'
+import img26 from '../assets/26.png'
+import img27 from '../assets/27.png'
+import img28 from '../assets/28.png'
+import img29 from '../assets/29.png'
+import img30 from '../assets/30.png'
 
 const bannerCards = [
   { num: '01', title: 'تحسين محركات البحث SEO', desc: 'نرفع ظهور موقعك في نتائج البحث، لزيادة الزيارات وتحقيق نمو مستدام.' },
@@ -16,50 +46,35 @@ const services = [
     tag: 'إدارة صفحات سوشيال ميديا',
     title: 'تصاميم السوشيال ميديا المميزة سبب في جذب المتابعين لمنتجاتك!',
     subtitle: 'إدارة صفحات السوشيال ميديا',
-    images: [
-      'src/assets/7.png',  'src/assets/8.png',  'src/assets/9.png',
-      'src/assets/10.png', 'src/assets/11.png', 'src/assets/12.png',
-    ],
+    images: [img7, img8, img9, img10, img11, img12],
   },
   {
     id: 'digital',
     tag: 'التسويق الاكتروني',
     title: 'التسويق الإلكتروني يضمن لمشروعك حضوراً قوياً ونتائج قابلة للقياس!',
     subtitle: 'التسويق الإلكتروني',
-    images: [
-      'src/assets/6.png', 'src/assets/5.png', 'src/assets/4.png',
-      'src/assets/3.png', 'src/assets/2.png', 'src/assets/1.png',
-    ],
+    images: [img6, img5, img4, img3, img2, img1],
   },
   {
     id: 'ads',
     tag: 'إدارة الحملات الترويجية',
     title: 'إدارة الحملات الترويجية تضمن استثمار ميزانيتك الإعلانية بأفضل النتائج!',
     subtitle: 'إدارة الحملات الترويجية',
-    images: [
-      'src/assets/13.png', 'src/assets/14.png', 'src/assets/15.png',
-      'src/assets/16.png', 'src/assets/17.png', 'src/assets/18.png',
-    ],
+    images: [img13, img14, img15, img16, img17, img18],
   },
   {
     id: 'web',
     tag: 'إنشاء المواقع الالكترونية',
-    title: 'خدمة إنشاء المواقع الإلكترونية هي حجر الأساس لأي مشروع يسعى للنجاح في العالم الرقمي!',
+    title: 'خدمة إنشاء المواقع الإلكترونية هي حجر الأساس لأي مشروع يسعى للنجاح!',
     subtitle: 'إنشاء المواقع الإلكترونية',
-    images: [
-      'src/assets/19.png', 'src/assets/20.png', 'src/assets/21.png',
-      'src/assets/22.png', 'src/assets/23.png', 'src/assets/24.png',
-    ],
+    images: [img19, img20, img21, img22, img23, img24],
   },
   {
     id: 'seo',
     tag: 'تحسين محركات البحث SEO',
     title: 'خدمة SEO تضمن لموقعك الظهور في المكان الصحيح أمام الجمهور الصحيح!',
     subtitle: 'تحسين محركات البحث SEO',
-    images: [
-      'src/assets/25.png', 'src/assets/26.png', 'src/assets/27.png',
-      'src/assets/29.png', 'src/assets/30.png', 'src/assets/28.png',
-    ],
+    images: [img25, img26, img27, img29, img30, img28],
   },
 ]
 
