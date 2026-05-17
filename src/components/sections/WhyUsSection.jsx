@@ -1,5 +1,5 @@
 import './WhyUsSection.css'
-import aboutImg from 'src/assets/about.png'
+import aboutImg from '../../assets/about.png'
 
 export default function WhyUsSection() {
   return (
