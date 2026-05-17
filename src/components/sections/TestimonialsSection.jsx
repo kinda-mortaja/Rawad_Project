@@ -1,6 +1,6 @@
 import TestimonialCard from '../ui/TestimonialCard'
 import './TestimonialsSection.css'
-import saraImg from 'src/assets/sara.png' 
+import saraImg from '../../assets/sara.png'
 
 
 const testimonials = [
@@ -9,7 +9,7 @@ const testimonials = [
     text: '" تجربتي مع هذه الشركة كانت استثنائية بكل معنى الكلمة! خدماتهم في مجالات التسويق والتصميم تفوق كل التوقعات، وأنا فخورة بأنني اخترتهم لتحويل أفكاري إلى واقع رائع! "',
     name: 'سارة محمد',
     location: 'فلسطين، غزة',
-    img: {saraImg},
+    img: saraImg,
   },
 ]
 
